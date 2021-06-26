@@ -29,7 +29,9 @@ class User {
   updated_at: Date;
 
   constructor() {
-    !this.id && this.id === uuid()
+    if(!this.id) {
+      this.id = uuid()
+    }
   }
 
 }
