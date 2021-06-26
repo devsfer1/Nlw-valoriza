@@ -5,4 +5,4 @@ import './database'
 
 const app = express()
 
-app.listen(3000, () => console.log('server is runningg'))
+app.listen(3000, () => console.log('server is running'))
